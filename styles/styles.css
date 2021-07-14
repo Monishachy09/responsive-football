@@ -1,0 +1,238 @@
+ /* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* common-font */
+ body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color:black;
+ }
+ /*---------------
+  copa-america 
+ -----------------*/
+
+ .copa .tittle h1{
+     font-size: 50px;
+     padding-left: 10px;
+     padding-bottom: 25px;
+     color: white;
+     width:500px;
+ }
+
+ 
+.copa{
+    display: flex;
+    padding:50px;
+    background-color: rgb(0, 0, 255);
+    justify-content: space-around;
+   
+
+}
+
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(rgb(185, 7, 37) ,rgb(245, 51, 16));
+    padding: 7px;
+    border-top: 30px;
+    border-radius: 15px;
+    color: white;
+}
+
+a{
+    padding: 20px;
+    border-top: 50px;
+}
+.player-info{
+    margin-top: 100px;
+}
+.players-card{
+    
+    margin:50px;
+   justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.card{
+    box-shadow: 0px 2px 15px 2px rgb(87, 68, 68);
+    border-radius: 10px;
+    width:350px;
+    height:500px;
+    padding:15px;
+    
+}
+.card p{
+    color:gray;
+}
+.card img{
+    border-radius: 5px;
+    height: 300px;
+    width: 350px;
+}
+
+
+.grid-container{
+    display: grid;
+    
+}
+.sector img{
+      height: 300px;
+      width: 255px;
+}
+    /*----------------- 
+      all-highlights
+    ------------------*/
+.all-highlights{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-left: 50px;
+    border: 50px;
+}
+.highlights{
+   height: 460px;
+   width: 310px;
+  
+}
+.highlights p{
+    color: grey;
+    padding-bottom: 25px;
+}
+
+.all-highlights img{
+    width: 100%;
+}
+.highlight-image{
+    padding-right: 70px;
+}
+ .contact{
+     margin-top: 100px;
+ }
+.contact h2{
+    text-align: center;
+}
+.contact-container{
+    margin:100px;
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.contact-container .contactInfo{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.contact-container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    background: tomato;
+}
+.contact-container .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: gray;
+    flex-direction: column;
+    font-weight: 400;
+}
+.contact-container .contactInfo .box .text h3{
+    font-weight: 500;
+    color:indianred;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: gray;
+}
+.contactForm h3{
+    font-size: 30px;
+    color:#333;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top:10px;
+}
+.contactForm .inputBox input, .contactForm .inputBox textarea{
+    width:100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin:10px 0;
+    border:none;
+    border-bottom: 2px solid ;
+    resize: none;
+}
+
+/*----------------
+    footer
+------------*/
+
+
+footer{
+    margin-top:70px;
+}
+footer .footer-img{
+    text-align: center;
+}
+footer .social-icon{
+    text-align: center;
+    font-size: 30px;
+}
+footer p{
+    margin-top:10px;
+    text-align: center;
+    font-size: 20px;
+}
+@media (min-width: 576px) { 
+    
+    .copa .tittle{
+        margin-left: 50px;
+    }
+    .copa .image img{
+        margin-left: 30px;
+        height:300px;
+        width:400px;
+        margin-top: 10px;
+    }
+    
+   .copa{
+       display: flex;
+       flex-wrap: wrap;
+       background-color: rgb(0, 0, 255);
+       justify-content: space-around;
+       border-top: 100px;
+       padding-top: 100px;
+       padding-right: 50px;
+       padding-left: 30px;
+   
+   }
+   .players-card{
+
+    margin:50px;
+   justify-content: space-around;
+    
+}
+   .card{
+       margin-top: 10px;
+      
+   }
+ }
